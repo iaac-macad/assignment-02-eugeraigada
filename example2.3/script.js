@@ -6,7 +6,7 @@ import { HDRCubeTextureLoader } from 'three/addons/loaders/HDRCubeTextureLoader.
 
 // declare variables to store scene, camera, and renderer
 let scene, camera, renderer
-const model = 'Rhino_Logo.3dm'
+const model = 'assignment 02 eugenia raigada.3dm'
 
 // call functions
 init()
@@ -43,15 +43,15 @@ function init () {
     let material, cubeMap
 
     // load a pbr material
-    const tl = new THREE.TextureLoader()
-    tl.setPath('materials/PBR/streaked-metal1/')
-    material = new THREE.MeshPhysicalMaterial()
-    material.map          = tl.load('streaked-metal1_base.png')
-    material.aoMmap       = tl.load('streaked-metal1_ao.png')
-    material.normalMap    = tl.load('streaked-metal1_normal.png')
-    material.metalnessMap = tl.load('streaked-metal1_metallic.png')
-    material.metalness = 0.2
-    material.roughness = 0.0
+    //const tl = new THREE.TextureLoader()
+    //tl.setPath('materials/PBR/streaked-metal1/')
+    //material = new THREE.MeshPhysicalMaterial()
+    //material.map          = tl.load('streaked-metal1_base.png')
+    //material.aoMmap       = tl.load('streaked-metal1_ao.png')
+    //material.normalMap    = tl.load('streaked-metal1_normal.png')
+    //material.metalnessMap = tl.load('streaked-metal1_metallic.png')
+    //material.metalness = 0.2
+    //material.roughness = 0.0
 
     // or create a material
     // material = new THREE.MeshStandardMaterial( {
